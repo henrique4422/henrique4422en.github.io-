@@ -1,0 +1,226 @@
+/* Inicio Reset CSS */
+* {
+  box-sizing: border-box;
+}
+html, body
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  overflow-wrap: break-word;
+}
+/* Fim Reset CSS */
+
+
+@font-face {
+  font-family: poppinsFont;
+  src: url(../fonts/Poppins/Poppins-Light.ttf);
+  }
+
+@font-face {
+    font-family: ptSansFont;
+    src: url(../fonts/PT_Sans/PTSans-Regular.ttf);
+    }
+
+@font-face {
+    font-family: RobotoFont;
+    src: url(../fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf);
+    }
+    
+#content{
+  margin: 1.55em ;
+  font-family: ptSansFont;
+  background-color: rgba(167, 150, 139, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  font-size: 1.28em;
+  border: red 2.2px solid;
+}
+
+.headPage{
+  background-color: rgb(10, 1, 116);
+  color: white;
+  padding: 0 auto;
+  font-family: poppinsFont;
+  font-style: italic; 
+  font-size: 2.2em;
+  height: 15vh;
+  text-align: center;
+  margin:1.5em 3em 1em 1.5em;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.tituloPage{
+  text-align: center;
+  margin: 0 auto;
+  font-size: 100%;
+}
+
+.nameDiv {
+  display:block;
+  border: solid 2px rgb(10, 1, 116);
+  padding: 20px;
+  font-family: ptSansFont;
+  text-shadow: 1px 2px 3px #666;
+  color: rgb(10, 1, 116);
+  background-color: white;
+}
+
+.titulo{
+  display: block;
+  box-sizing: border-box;
+  margin-bottom:2px;
+  border-bottom: solid 2px rgb(10, 1, 116);
+  width: 80%;
+  text-shadow: 1px 2px 3px #666;
+  color: rgb(10, 1, 116);
+}
+
+.descricao{
+  margin: 2px;
+  width: 80%;
+  font-size: 1.4rem;
+  font-family: RobotoFont;
+}
+
+.subtitulo{
+  margin: 5px 0px;
+  text-shadow: 1px 2px 3px #666;
+  color: rgb(10, 1, 116);
+}
+
+
+.dadosDiv{
+  font-family: ptSansFont;
+  overflow: auto;
+}
+
+.links{
+  text-decoration: none;
+  color: white;
+  transition: .5s;
+  behavior: smooth;
+}
+
+.links:hover{
+  text-decoration: none;
+  color: rgb(10, 1, 116);
+  
+}
+
+.img {
+  width: 60vw;
+}
+
+.resumo{
+  border-top: solid 2px rgb(10, 1, 116);
+  flex-wrap: wrap;
+}
+
+.historico {
+  display: flex;
+}
+
+.logo {
+  width: 25vw;
+}
+
+.card{
+  margin: 15px;
+}
+
+.card-desc{
+  margin-top: 5px;
+}
+
+.descGZ {
+  margin-top: 50px;
+}
+
+.cargo {
+  color: rgba(0, 72, 255, 0.7);
+  margin-top: 15px;
+}
+
+.cargoGZ{
+  margin-top:20px ;
+}
+
+.imgRPA {
+  width: auto;
+}
+
+.atividades {
+  color:red;
+  font-size: 40px;
+  font-family: robotoFont;
+}
+
+.descAtividade{
+  font-size: 22px;
+  color: rgba(10, 1, 116, 0.8);;
+}
+
+.imgDesenvolvido{
+  width: 60vw !important;
+}
+
+.contato{
+  background-color:rgb(10, 1, 116);
+  margin:1.5em 3em 1em 1.5em;
+  color: white;
+  font-family: RobotoFont;
+  display: flex;
+  padding: 25px;
+  border-radius: 5px;
+  border: solid 2px red;
+}
+
+.contatoTitulo{
+  margin: 10px 50px;
+}
+
+.linkFoot{
+  display: flex;
+  flex-direction: column;
+}
+
+.logoFoot{
+  width: 50px;
+  text-align: center;
+}
+
+footer .links:hover{
+   color: red;
+}
+
+@media (max-width: 975px) {
+  .historico {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:350px) {
+  .tituloPage {
+    font-size: 45%;
+  }
+
+  .imgRPA {
+    width: 60vw;
+  }
+
+  .linkFoot {
+    position: absolute;
+    margin-top: 90px;
+  }
+
+  .linkFoot .links {
+    color: black;
+  }
+}
